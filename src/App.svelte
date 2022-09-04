@@ -3,6 +3,7 @@
   import Home from "./Home.svelte";
   import RoutineOrder from "./routine/RoutineOrder.svelte";
   import RoutineSetting from "./routine/RoutineSetting.svelte";
+  import RoutineStart from "./routine/RoutineStart.svelte";
 </script>
 
 <div class="py-12">
@@ -24,5 +25,6 @@
     "/": Home,
     "/routine/order": RoutineOrder,
     "/routine/setting": RoutineSetting,
+    "/routine/start": RoutineStart,
   }}
 />

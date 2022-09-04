@@ -27,7 +27,6 @@
         );
       });
     routines.update((routine) => (routine = routineList));
-    console.log({ $routines });
   }
 </script>
 
@@ -74,7 +73,7 @@
         >이전</a
       >
       <a
-        href="/#/routine/setting"
+        href="/#/routine/start"
         class="inline-block rounded-md border border-transparent bg-blue-500 py-3 px-8 text-center font-medium text-white hover:bg-blue-700"
         on:click={routineComplete}>다음</a
       >
