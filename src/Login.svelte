@@ -12,7 +12,7 @@
 </div>
 <style>
     button.kakoBtn{
-        background-image: url("kakao_login_btn.png");
+        background-image: url("https://velog.velcdn.com/images/ililil9482/post/09d0b625-db31-48cb-9948-c5d280d6c840/image.png");
         background-repeat: no-repeat;
         background-size: 100% auto;
         margin: 10px;
