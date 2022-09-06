@@ -1,6 +1,8 @@
 <script>
   import Router from "svelte-spa-router";
   import Home from "./Home.svelte";
+  import Login from "./Login.svelte";
+  import Choice from "./Choice.svelte";
   import RoutineOrder from "./routine/RoutineOrder.svelte";
   import RoutineSetting from "./routine/RoutineSetting.svelte";
   import RoutineStart from "./routine/RoutineStart.svelte";
@@ -23,6 +25,8 @@
 <Router
   routes={{
     "/": Home,
+    "/login": Login,
+    "/choice": Choice,
     "/routine/order": RoutineOrder,
     "/routine/setting": RoutineSetting,
     "/routine/start": RoutineStart,
